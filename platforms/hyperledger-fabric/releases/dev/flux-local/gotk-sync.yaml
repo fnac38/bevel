@@ -8,7 +8,7 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: develop
+    branch: try5
   secretRef:
     name: flux-system
   url: https://github.com/fnac38/bevel.git
