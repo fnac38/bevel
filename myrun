@@ -1,0 +1,5 @@
+echo "to run inside:"
+echo 'cd bevel && ansible-playbook platforms/shared/configuration/site.yaml -e "@./build/network.yaml"'
+docker run -e KUBECONFIG=/home/bevel/build/config -it -v $(pwd):/home/bevel/ --network="host" ghcr.io/hyperledger/bevel-build:latest bash
+
+
